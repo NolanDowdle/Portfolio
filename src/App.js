@@ -36,13 +36,15 @@ const App = () => {
       </section>
       <section id="contact">
         <h2>Contact Me</h2>
-        <p>...</p>
-        <div id="socialLinks">
-          <form action="https://github.com/NolanDowdle">
-            <button style={{fontSize: 20}}>GitHub<i className="fa fa-github"></i></button>
-          </form>
-          
-        </div>
+        <form action="mailto:njdowdle@gmail.com">
+          <button id="email">Email <i class="fa fa-envelope"></i></button>
+        </form>
+        <form action="https://github.com/NolanDowdle">
+          <button id="github">GitHub <i className="fa fa-github"></i></button>
+        </form>
+        <form action="https://www.linkedin.com/in/nolan-dowdle/">
+          <button id="linkedin">LinkedIn <i class="fa fa-linkedin-square"></i></button>
+        </form>
         </section>
     </div>
   );
