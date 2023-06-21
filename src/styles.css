@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-item {
+    margin-right: 10px;
+  }
+  
+  .navbar-item a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  section h1,
+  section h2 {
+    margin-bottom: 20px;
+  }
+  
+  #home {
+    background-color: #f1f1f1;
+  }
+  
+  #about {
+    background-color: #e9e9e9;
+  }
+  
+  #projects {
+    background-color: #dedede;
+  }
+  
+  #contact {
+    background-color: #d5d5d5;
+  }
+  
