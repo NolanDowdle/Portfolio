@@ -6,7 +6,7 @@ const App = () => {
     <div>
       <Navbar />
       <section id="home">
-        <h1>Welcome to My Portfolio</h1>
+        <h1>Welcome to Nolan Dowdle's Portfolio</h1>
       </section>
       <section id="about">
         <h2>About Me</h2>

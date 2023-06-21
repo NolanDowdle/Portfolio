@@ -35,17 +35,18 @@ body {
   
   .navbar-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
   
   .navbar-menu {
     list-style: none;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
   
   .navbar-item {
     margin-right: 10px;
+    padding-right: 10px;
   }
   
   .navbar-item a {
