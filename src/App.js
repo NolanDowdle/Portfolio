@@ -6,7 +6,7 @@ import Project from './Project.js'
 class App extends Component {
   state = {
     projects: [
-      {id: 1, websiteLink: 'https://calculator-nbdghjwvq-njdowdle-gmailcom.vercel.app/', imageLink: './calculatorImage.png'},
+      {id: 1, websiteLink: 'https://calculator-app-drab.vercel.app/', imageLink: './calculatorImage.png'},
       {id: 2, websiteLink: 'https://to-do-list-one-gamma.vercel.app/', imageLink: './todoImage.png'}
     ]
   }
