@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Navbar from './navbar.js';
+import Project from './Project.js'
 
-const App = () => {
+// const App = () => 
+class App extends Component {
+  state = {
+    projects: [
+      {id: 1, websiteLink: 'https://to-do-list-one-gamma.vercel.app/', imageLink: './calculatorImage.png'},
+      {id: 2, websiteLink: 'https://calculator-nbdghjwvq-njdowdle-gmailcom.vercel.app/', imageLink: './todoImage.png'}
+    ]
+  }
+  render() {
   return (
     <div>
       <Navbar />
@@ -31,8 +40,11 @@ const App = () => {
         <br/>I invite you to take a look at my exciting projects below!</p>
       </section>
       <section id="projects">
-        <h2>Projects</h2>
-        <p>...</p>
+        <h2 className="projectHeader">Projects</h2>
+        <h4>click on the image to be taken to the project's website!</h4>
+        <div className="projectContainer">
+          <Project projects={this.state.projects}/>
+        </div>
       </section>
       <section id="contact">
         <h2>Contact Me</h2>
@@ -48,6 +60,7 @@ const App = () => {
         </section>
     </div>
   );
+  }
 };
 
 export default App;

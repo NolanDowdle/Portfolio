@@ -3,9 +3,19 @@ body {
     padding: 0;
   }
 
-  img {
+  .profile-picture {
     width: 5em;
     border-radius: 10px;
+  }
+
+  .projectImage {
+    width: 20em;
+    height: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 
   #email {
@@ -61,6 +71,10 @@ body {
     align-items: center;
   }
   
+  .projectHeader {
+    margin-bottom: 10px;
+  }
+
   section h1,
   section h2 {
     margin-bottom: 20px;
@@ -109,8 +123,19 @@ body {
     align-items: center;
     text-align: center;
   }
+
+  .projectContainer {
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-width: 1px;
+    overflow-x: scroll;
+  }
   
   #projects {
+    display: flex;
+    height: auto;
+    flex-direction: column;
     background-color: #dedede;
     height: auto;
     padding: 1em;
